@@ -117,10 +117,10 @@ class Preview(object):
             else:
                 self.image = self.url + image_link
 
-            self.image = builder.create_url(
+          """  self.image = builder.create_url(
                 self.image,
                 {'max-w': IMAGE_LINK_MAX_WIDTH}
-            )
+            ) """
 
     def to_dict(self):
         """
